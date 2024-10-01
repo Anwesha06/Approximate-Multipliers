@@ -195,11 +195,11 @@ for i in range(256):
         })
 
 
-with open("3f.txt", "w") as f:
+with open("multiplier_2.txt", "w") as f:
     for r in results:
         f.write(
             f"A={r['A']} B={r['B']} exact={r['exact']} apprx={r['apprx']} #error={r['error']} MED={r['MED']} "
             f"MRED={r['MRED']} MNED={r['MNED']} ER={r['ER']} max={r['max']} MSED={r['MSED']} NMED={r['NMED']} NMSED={r['NMSED']}\n"
         )
 
-print("Simulation complete. Check 3f.txt for results.")
+print("Simulation complete. Check multiplier_2.txt for results.")
